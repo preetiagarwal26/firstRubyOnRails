@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FirstRubyOnRails</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+    <li class="nav-item active">
+      <a class="nav-link" href="/blogs">Blogs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/pages/information">Information</a>
+    </li>
+  </body>
+</html>

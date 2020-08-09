@@ -88,6 +88,3 @@ rails generate controller pages information
 	<li class="nav-item">
   		<a class="nav-link" href="/pages/information">Information</a>
 	</li>
-
-**Sample code**
-Refer to sample code at git repository located at
